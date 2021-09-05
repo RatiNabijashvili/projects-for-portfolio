@@ -1,0 +1,28 @@
+.main-div {
+  position: relative;
+  top: 40em;
+  width: 100%;
+}
+
+.responsive-div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.components {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  position: relative;
+  top: 1em;
+  left: 1em;
+}
+
+@media (min-width: 1700px) {
+  .responsive-div {
+    width: 40%;
+  }
+}

@@ -1,0 +1,53 @@
+.section {
+  position: relative;
+  top: 35em;
+  width: 100%;
+}
+
+.div {
+  background-color: hsl(219, 30%, 18%);
+  width: 50%;
+  height: 13em;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.p {
+  text-align: center;
+  padding: 0.5em;
+  color: hsl(0, 0%, 80%);
+}
+
+.input-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 60%;
+  padding-left: 2em;
+  outline: 0;
+  border: none;
+  border-radius: 35px;
+}
+
+@media (min-width: 1700px) {
+  .div {
+    width: 35%;
+    height: 16em;
+  }
+  .p {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+  .input-div {
+    padding: 0 5em;
+  }
+}
