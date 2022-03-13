@@ -1,186 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 
 body {
-    overflow: hidden; 
-    margin: 0;
+  overflow: hidden;
+  margin: 0;
 }
 .logo {
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 50%;
+}
+.logo img {
+  margin: 0;
+  width: 20vh;
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+.main-decoration-desktop {
+  position: absolute;
+  display: block;
+  margin: 0;
+  height: 100%;
+  right: 0vh;
+  top: 0vh;
+  object-fit: cover;
+}
+.main-decoration-mobile {
+  display: none;
+}
+.main-text {
+  position: relative;
+  display: block;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 10vw;
+  margin-top: 15vh;
+}
+.main-text h2 {
+  margin: 0;
+  letter-spacing: 20px;
+  font-size: 8vh;
+  color: hsl(0, 6%, 24%);
+}
+.different-h2 {
+  font-weight: 300;
+}
+.same-h2 {
+  font-weight: 400;
+}
+#desaturated-red {
+  color: hsl(0, 36%, 70%);
+}
+.main-text p {
+  width: 35%;
+  line-height: 1.8;
+}
+#main-input {
+  position: relative;
+  padding: 2px;
+  margin-left: 10vw;
+  margin-top: 3vw;
+}
+#main-input-p {
+  color: hsl(0, 93%, 68%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  margin-left: 2vw;
+}
+input {
+  height: 48px;
+  width: 25vw;
+  outline: 0;
+  color: hsl(0, 36%, 70%);
+  border: solid 1px;
+  border-radius: 5vh;
+  padding-left: 30px;
+}
+::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+#main-input button {
+  position: absolute;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-left: -85px;
+  height: 52px;
+  width: 6vw;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  outline: 0;
+  border: 0;
+  border-radius: 5vh;
+}
+@media (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+  .logo {
     position: relative;
     display: block;
     margin: 0;
     width: 50%;
-}
-.logo img{
+  }
+  .logo img {
     margin: 0;
     width: 20vh;
     margin-left: 10vw;
-    margin-top: 10vh;
-}
-.main-decoration-desktop{
-    position: absolute;
-    display: block;
-    margin: 0;
-    height: 100%;
-    right: 0vh;
-    top: 0vh;
-}
-.main-decoration-mobile{
+    margin-top: 5vh;
+  }
+  .main-decoration-desktop {
     display: none;
-}
-.main-text{
+  }
+  .main-decoration-mobile {
+    position: absolute;
+    top: 15vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .main-text {
     position: relative;
     display: block;
     font-family: 'Josefin Sans', sans-serif;
-    margin-left: 10vw;
-    margin-top: 15vh;
-}
-.main-text h2{
+    text-align: center;
+    margin-top: 45vh;
+  }
+  .main-text h2 {
     margin: 0;
     letter-spacing: 20px;
-    font-size: 8vh;
+    font-size: 5vh;
     color: hsl(0, 6%, 24%);
-}
-.different-h2 {
+  }
+  .different-h2 {
     font-weight: 300;
-}
-.same-h2 {
+  }
+  .same-h2 {
     font-weight: 400;
-}
-#desaturated-red{
+  }
+  #desaturated-red {
     color: hsl(0, 36%, 70%);
-
-}
-.main-text p{
-    width: 35%;
+  }
+  .main-text p {
+    font-size: 1.7vh;
+    width: 90%;
     line-height: 1.8;
-}
-#main-input{
+  }
+  #main-input {
     position: relative;
-    padding:2px;
+    padding: 2px;
     margin-left: 10vw;
-    margin-top: 3vw;
-    
-}
-#main-input-p{
+    margin-top: 5vw;
+  }
+  #main-input-p {
     color: hsl(0, 93%, 68%);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 12px;
     margin-left: 2vw;
-}
-input {
+  }
+  input {
     height: 48px;
-    width: 25vw;
+    width: 70vw;
     outline: 0;
     color: hsl(0, 36%, 70%);
     border: solid 1px;
     border-radius: 5vh;
     padding-left: 30px;
-}
-::placeholder {
+  }
+  ::placeholder {
     color: hsl(0, 36%, 70%);
-}
-#main-input button{
+  }
+  #main-input button {
     position: absolute;
     cursor: pointer;
     margin-top: 0px;
     margin-left: -85px;
     height: 52px;
-    width: 6vw;
-    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    width: 25vw;
+    background-image: linear-gradient(
+      135deg,
+      hsl(0, 80%, 86%),
+      hsl(0, 74%, 74%)
+    );
     outline: 0;
     border: 0;
     border-radius: 5vh;
-}
-@media (max-width: 375px){
-    body {
-        margin: 0;
-    }
-    .logo {
-        position: relative;
-        display: block;
-        margin: 0;
-        width: 50%;
-    }
-    .logo img{
-        margin: 0;
-        width: 20vh;
-        margin-left: 10vw;
-        margin-top: 5vh;
-    }
-    .main-decoration-desktop{
-        display: none;
-    }
-    .main-decoration-mobile{
-        position: absolute;
-        top: 15vh;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    .main-text{
-        position: relative;
-        display: block;
-        font-family: 'Josefin Sans', sans-serif;
-        text-align: center;
-        margin-top: 45vh;
-    }
-    .main-text h2{
-        margin: 0;
-        letter-spacing: 20px;
-        font-size: 5vh;
-        color: hsl(0, 6%, 24%);
-    }
-    .different-h2 {
-        font-weight: 300;
-    }
-    .same-h2 {
-        font-weight: 400;
-    }
-    #desaturated-red{
-        color: hsl(0, 36%, 70%);
-    
-    }
-    .main-text p{
-        font-size: 1.7vh;
-        width: 90%;
-        line-height: 1.8;
-    }
-    #main-input{
-        position: relative;
-        padding:2px;
-        margin-left: 10vw;
-        margin-top: 5vw;
-        
-    }
-    #main-input-p{
-        color: hsl(0, 93%, 68%);
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 12px;
-        margin-left: 2vw;
-    }
-    input {
-        height: 48px;
-        width: 70vw;
-        outline: 0;
-        color: hsl(0, 36%, 70%);
-        border: solid 1px;
-        border-radius: 5vh;
-        padding-left: 30px;
-    }
-    ::placeholder {
-        color: hsl(0, 36%, 70%);
-    }
-    #main-input button{
-        position: absolute;
-        cursor: pointer;
-        margin-top: 0px;
-        margin-left: -85px;
-        height: 52px;
-        width: 25vw;
-        background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-        outline: 0;
-        border: 0;
-        border-radius: 5vh;
-    }
+  }
 }

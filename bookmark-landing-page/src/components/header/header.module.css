@@ -1,0 +1,112 @@
+.header {
+  position: relative;
+  top: 1.5em;
+  width: 100%;
+}
+
+.div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.p {
+  color: hsl(229, 8%, 60%);
+  font-size: 0.875rem;
+  width: 80%;
+  line-height: 1.5em;
+}
+
+.buttons {
+  margin-top: 1em;
+}
+
+.chrome-btn {
+  background-color: hsl(231, 69%, 60%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 12em;
+  height: 3em;
+  margin-right: 2em;
+}
+
+.chrome-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(231, 69%, 60%);
+  border: 1px solid hsl(231, 69%, 60%);
+  cursor: pointer;
+}
+
+.firefox-btn {
+  color: hsl(229, 8%, 40%);
+  border: none;
+  outline: none;
+  font-weight: 500;
+  width: 12em;
+  height: 3em;
+  box-shadow: 0 4px 2px -2px hsl(229, 8%, 60%);
+}
+
+.firefox-btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(229, 8%, 30%);
+  border: 1px solid hsl(229, 8%, 60%);
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.decoration {
+  position: absolute;
+  right: -10em;
+  top: 12em;
+  background-color: hsl(231, 69%, 60%);
+  width: 40em;
+  height: 18em;
+  border-radius: 150px;
+  z-index: -1;
+}
+
+@media (min-width: 1700px) {
+  .div {
+    align-items: center;
+  }
+  .h2 {
+    font-size: 4rem;
+  }
+  .p {
+    font-size: 2rem;
+    width: 75%;
+  }
+  .chrome-btn {
+    font-size: 1.5rem;
+  }
+  .firefox-btn {
+    font-size: 1.5rem;
+  }
+  .img {
+    height: 50em;
+  }
+  .decoration {
+    right: -20em;
+    top: 15em;
+    width: 70em;
+    height: 35em;
+    border-radius: 500px;
+  }
+}

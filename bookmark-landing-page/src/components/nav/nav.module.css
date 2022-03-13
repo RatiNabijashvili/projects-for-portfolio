@@ -1,0 +1,65 @@
+.nav {
+  width: 100%;
+  padding: 2em 0;
+}
+
+.div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  height: 2em;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.li {
+  padding: 0 1em;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+.button {
+  background-color: hsl(0, 94%, 66%);
+  color: hsl(0, 0%, 100%);
+  width: 8em;
+  height: 3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.li:hover {
+  color: hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 94%, 66%);
+  border: 1px solid hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
+@media (min-width: 1700px) {
+  .img {
+    height: 3em;
+  }
+  .li {
+    font-size: 1.5rem;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+}

@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Shortly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Video Demo: https://youtu.be/4-4wQFe0P-o
 
-## Available Scripts
+#### Description
 
-In the project directory, you can run:
+Hello, This is my final project for Cs50. This is Shortly. It is a simple frontend project, Where you can shorten links. I use the Javascript language and JS library named React, also some html in react and css. In this project I also use bitly API for url shortening. I made a simple and a good looking Navigation. In this web page you will see some logos with text. The main functionality of my web page is shortening links. It is well designed input with button. If the input is empty and If you click the button nothing will happen because of it. I tried some other API's and it didn't work, so i had to
+find some other API's which would work, then I searched many API's and finally found a particular one, named bitly. I think it is a very good API, which provides us with short url's. Mostly in this project I use React. React is a Javascript library. I really like react, because everything in react is simple, user-friendly and easy-to-use. I also want to add that JSX is really cool and the built in state management is perfect for any beginner developer.
 
-### `npm start`
+Why I am amazed for cs50? CS50 is really helpful for programmer's who need to further develop and deepen their knowlage in this profession.Also it is a great opportunity for them who want to learn programming deeply.It also gives a lot of experience to people like myself, which I really appreciate.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Skills That I have and didn't use in CS50
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Web Design
 
-### `npm test`
+- Adobe Photoshop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Adobe XD
 
-### `npm run build`
+#### Skills That I use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Html
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- JS
 
-### `npm run eject`
+- React
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- C
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Python
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Flask
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- SQl
 
-## Learn More
+#### Things that I wanted to add in my web page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In the first place I am just finishing high school, so i had limited time to do everything that I wanted. If the situation was simpler and I had more free time than I currently have I would have definitely included these following features: login and registration. For this functionality I would have used a language like python and a python framework called flask.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Future plans
 
-### Code Splitting
+In first place I want to study in university, so if I want this to happen , I need to study well and write the exam and pass. Then I really want to start job as a junior front-end developer. To develop myself as a Full-stack Developer I want to learn Back-end development very well , In the first place I want to learn a Javascript back-end library called node.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Thank CS50
 
-### Analyzing the Bundle Size
+I really appreciate the opportunity, that you gave us. I really enjoyed taking the CS50 course , because It helped me to improve my skills as a software developer and become better computer programmer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### The End
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I am Rati Nabijashvili From Tbilisi, Georgia and Thank you for reading my final project description.

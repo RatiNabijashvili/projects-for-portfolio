@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+.btn {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 500;
+  width: 10em;
+  height: 3em;
+  border-radius: 999px;
+  margin: 0;
+  outline: 0;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(12, 88%, 59%);
+  box-shadow: 0px 20px 10px -16px hsl(12, 88%, 59%);
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(12, 80%, 70%);
+}
