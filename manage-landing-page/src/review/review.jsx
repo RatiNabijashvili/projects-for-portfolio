@@ -8,7 +8,7 @@ import Styles from './review.module.css'
 
 const Review = () => {
   return (
-    <div>
+    <div className={Styles['review-div']}>
       <section className={Styles['h2-section']}>
         <h2 className={Styles.h2}>What they’ve said</h2>
       </section>

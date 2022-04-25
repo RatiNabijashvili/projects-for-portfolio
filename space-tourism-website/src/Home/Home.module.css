@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-div {
+  background-image: url(./img/background-home-desktop.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+.content-div {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 10em;
+  justify-content: space-between;
+}
+
+.h3 {
+  color: #cccccc;
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.h2 {
+  color: #ffffff;
+  font-family: simplifica;
+  font-size: 10rem;
+  margin: 0.2em 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.p {
+  color: #cccccc;
+  font-family: monospace;
+  font-size: 0.775rem;
+  line-height: 20px;
+}
+
+.btn-section {
+  display: flex;
+  height: 20em;
+  align-items: flex-end;
+}
+
+.btn {
+  width: 10em;
+  height: 10em;
+  border-radius: 999px;
+  font-family: monospace;
+  font-size: 1.4rem;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 400px) {
+  nav {
+    width: 85%;
+  }
+
+  .main-div {
+    background-image: url(./img/background-home-mobile.jpg);
+  }
+
+  .hamburger-icon {
+    display: block;
+    width: 2em;
+  }
+
+  .content-div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 7em;
+    justify-content: flex-start;
+  }
+
+  .h3 {
+    font-size: 1.2rem;
+  }
+
+  .h2 {
+    font-size: 7rem;
+  }
+
+  .p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .btn-section {
+    height: 15em;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  nav {
+    padding-top: 3em;
+  }
+
+  .logo {
+    width: 4em;
+  }
+
+  .content-div {
+    margin-top: 15em;
+  }
+
+  .h3 {
+    font-size: 1.7rem;
+  }
+
+  .h2 {
+    font-size: 13rem;
+  }
+
+  .p {
+    font-size: 1.1rem;
+  }
+
+  .btn-section {
+    height: 25em;
+  }
+
+  .btn {
+    font-size: 1.7rem;
+  }
+}

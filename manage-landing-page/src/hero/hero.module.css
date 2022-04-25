@@ -6,6 +6,7 @@
   display: flex;
   margin-top: 5em;
   justify-content: space-between;
+  max-width: 1600px;
 }
 
 .h2 {
